@@ -1,0 +1,22 @@
+:root
+{
+    --background-principal: #EBECEE;
+    --background-secundario: #FFFFFF;
+    --cor-de-destaque: #EB9B00;
+    --fonte-cabecalho: #000000;
+    --fonte-principal: "Poppins", sans-serif;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.projeto
+{
+    background-color: var(--background-principal);
+    font-family: var(--fonte-principal);
+}
