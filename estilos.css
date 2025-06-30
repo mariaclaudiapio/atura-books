@@ -1,10 +1,12 @@
 @import "./estilos/cabecalho.css";
+@import "./estilos/banner.css";
 
 :root
 {
     --background-principal: #EBECEE;
     --background-secundario: #FFFFFF;
     --cor-de-destaque: #EB9B00;
+    --degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-cabecalho: #000000;
     --fonte-principal: "Poppins", sans-serif;
 }
