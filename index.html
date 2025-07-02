@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Books</title>
-    <!-- Importe da Folha de Estilos -->
-    <link rel="stylesheet" href="estilos.css">
+    <!-- Importe do Carrossel -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <!-- Importe das Fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  
+    <!-- Importe da Folha de Estilos -->
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body class="projeto">
     <!-- Cabeçalho -->
@@ -47,10 +49,54 @@
     </header>
 
     <!-- Banner -->
-     <section class="banner">
+    <section class="banner">
         <h2 class="banner__titulo">Já sabe por onde começar?</h2>
         <p class="banner__paragrafo">Encontre em nossa estante o que precisa para o seu desenvolvimento!</p>
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
-     </section>
+    </section>
+
+    <!-- Carrossel -->
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Últimos lançamentos</h2>
+       
+        <!-- Slider main container -->
+        <div class="swiper">
+
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./imagens/apache_kafka.svg" alt="Livro sobre Apache Kafka"> </div>
+                <div class="swiper-slide"><img src="./imagens/lideranca.svg" alt="Livro sobre liderança em Design"> </div>
+                <div class="swiper-slide"><img src="./imagens/javascript.svg" alt="Livro sobre JavaScript"></div>
+                <div class="swiper-slide"><img src="./imagens/angular.svg" alt="Livro sobre Angular"></div>
+                <div class="swiper-slide"><img src="./imagens/fullstack_javascript.svg" alt="Livro sobre JavaScript Fullstack"></div>
+                <div class="swiper-slide"><img src="./imagens/gestao_2.svg" alt="Livro sobre Gestão"></div>                
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
+
+    <!-- Script do Carrossel -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            }
+        });
+    </script>
+
 </body>
 </html>
