@@ -59,15 +59,11 @@
     <section class="carrossel">
         <h2 class="carrossel__titulo">Últimos lançamentos</h2>
        
-        <!-- Slider main container -->
-        <div class="swiper">
-
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-
-        <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
+        <!-- HTML do Slider: main container -->
+        <div class="swiper">        
+            <div class="swiper-pagination"></div><!-- paginação -->
+            <!-- slides -->
+            <div class="swiper-wrapper">                    
                 <div class="swiper-slide"><img src="./imagens/apache_kafka.svg" alt="Livro sobre Apache Kafka"> </div>
                 <div class="swiper-slide"><img src="./imagens/lideranca.svg" alt="Livro sobre liderança em Design"> </div>
                 <div class="swiper-slide"><img src="./imagens/javascript.svg" alt="Livro sobre JavaScript"></div>
@@ -75,15 +71,31 @@
                 <div class="swiper-slide"><img src="./imagens/fullstack_javascript.svg" alt="Livro sobre JavaScript Fullstack"></div>
                 <div class="swiper-slide"><img src="./imagens/gestao_2.svg" alt="Livro sobre Gestão"></div>                
             </div>
-
-            <!-- If we need navigation buttons -->
+            <!-- Botões de navegação -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
-
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
         </div>
+
+        <!-- Cartão -->
+         <div class="cartao">
+            <div class="cartao__descricao">
+                <h3 class="cartao__descricao--titulo">Talvez você também se interesse por...</h3>
+                <h2 class="cartao__descricao--livro">Angular 11 e Firebase</h2>
+                <p class="cartao__descricao--texto">Construindo uma aplicacao integrada com a plataforma do Google.</p>
+                <div class="cartao__descricao--icones">
+                    <a href="#"><img src="./imagens/favoritos.svg" alt="Favoritos"></a>
+                    <a href="#"><img src="./imagens/compras.svg" alt="Favoritos"></a>
+                </div>
+            </div>
+            <div class="cartao__imagens">
+                <img src="./imagens/logo_angular.svg" alt="Logo do Angular" class="cartao__imagens--imagem">
+                <a class="cartao__imagens--link" href="#">Saiba mais</a>
+            </div>
+         </div>
+
     </section>
+
+
 
     <!-- Script do Carrossel -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

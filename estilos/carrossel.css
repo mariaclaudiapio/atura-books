@@ -23,5 +23,55 @@
 .swiper-pagination
 {
     position: initial;
-    margin: 1em 0;
+    margin: 0.5em 0;
+}
+
+.cartao
+{
+    margin: 0.5rem 1rem 1rem 1rem;
+    padding: 1rem;
+    background-color: var(--background-secundario);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: flex;
+    gap: 1rem;
+}
+
+.cartao__descricao--titulo
+{
+    font-weight: 700;
+    color: var(--cor-de-destaque);
+}
+
+.cartao__descricao--livro
+{
+    padding: 0.5rem 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--fonte-principal);
+}
+
+.cartao__descricao--texto
+{
+    font-size: 14px;    
+    color: var(--fonte-cabecalho);
+    padding-bottom: 0.5rem;
+}
+
+.cartao__imagens
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cartao__imagens--link
+{
+    width: 100%;
+    padding: 1rem 0;
+    background-color: var(--cor-de-destaque);
+    text-align: center;
+    font-weight: 700;
+    color: var(--background-secundario);
 }
