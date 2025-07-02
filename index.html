@@ -92,9 +92,46 @@
                 <a class="cartao__imagens--link" href="#">Saiba mais</a>
             </div>
          </div>
+         
+         <h2 class="carrossel__titulo">Mais vendidos</h2>
+       
+        <!-- HTML do Slider: main container -->
+        <div class="swiper">        
+            <div class="swiper-pagination"></div><!-- paginação -->
+            <!-- slides -->
+            <div class="swiper-wrapper">                    
+                <div class="swiper-slide"><img src="./imagens/guia_frontend.svg" alt="Livro sobre JavaScript"></div>
+                <div class="swiper-slide"><img src="./imagens/tuning.svg" alt="Livro sobre JavaScript Fullstack"></div>
+                <div class="swiper-slide"><img src="./imagens/gestao.svg" alt="Livro sobre Apache Kafka"> </div>
+                <div class="swiper-slide"><img src="./imagens/react_nactive.svg" alt="Livro sobre liderança em Design"> </div>
+                <div class="swiper-slide"><img src="./imagens/portugol.svg" alt="Livro sobre Angular"></div>
+                <div class="swiper-slide"><img src="./imagens/ux.svg" alt="Livro sobre Gestão"></div>                
+            </div>
+            <!-- Botões de navegação -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
 
+        <!-- Cartão -->
+         <div class="cartao">
+            <div class="cartao__descricao">
+                <img src="./imagens/cinco_estrelas.svg" alt="Ilustração de cinco estrelas douradas." class="cartao__descricao--estrelas">
+                <h3 class="cartao__descricao--titulo">Autora do Mês</h3>
+                <h2 class="cartao__descricao--livro">Juliana Agarikov</h2>
+                <p class="cartao__descricao--texto">CAnalista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                <div class="cartao__descricao--icones-autora">
+                    <a href="#"><img src="./imagens/favoritos.svg" alt="Favoritos"></a>
+                    <a href="#"><img src="./imagens/compras.svg" alt="Favoritos"></a>
+                </div>
+            </div>
+            <div class="cartao__imagens">
+                <img src="./imagens/juliana_agarikov.svg" alt="Logo do Angular" class="cartao__imagens--imagem">
+                <a class="cartao__imagens--link" href="#">Saiba mais</a>
+            </div>
+         </div>         
     </section>
 
+    <!-- Tópicos visitados -->
 
 
     <!-- Script do Carrossel -->

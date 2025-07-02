@@ -75,3 +75,8 @@
     font-weight: 700;
     color: var(--background-secundario);
 }
+
+.cartao__descricao--icones-autora
+{
+    margin-top: 2rem;
+}
