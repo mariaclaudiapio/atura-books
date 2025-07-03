@@ -6,12 +6,11 @@ hr
 .rodape
 {
    background-color: var(--background-rodape);
-   padding: 1em;
+   padding: 1.5em 2em;
 }
 
 .rodape__titulo
 {
     font-size: 16px;
     font-weight: 400; 
-
 }

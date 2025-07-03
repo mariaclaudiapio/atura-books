@@ -1,7 +1,7 @@
 .contato
 {
     background-color: var(--background-secundario);
-    padding: 1em;
+    padding: 2em;
 }
 
 .contato__titulo,
@@ -37,7 +37,7 @@
 .contato__email::placeholder
 {
     font-family: var(--fonte-principal);
-    color: var(--fonte-principal);
+    color: var(--cor-fonte-principal);
     background: url(../imagens/email.svg) no-repeat;
     padding-left: 2rem;
 }
