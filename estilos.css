@@ -3,14 +3,16 @@
 @import "./estilos/carrossel.css";
 @import "./estilos/topicos.css";
 @import "./estilos/contato.css";
+@import "./estilos/rodape.css";
 
 :root
 {
     --background-principal: #EBECEE;
     --background-secundario: #FFFFFF;
+    --background-rodape: #F9F9F9;
     --cor-de-destaque: #EB9B00;
     --degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-    --fonte-principal: #002F52;   
+    --fonte-principal: #002f52;   
     --fonte-cabecalho: #000000;
     --fonte-principal: "Poppins", sans-serif;
 }
