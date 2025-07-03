@@ -1,10 +1,3 @@
-@import "./estilos/cabecalho.css";
-@import "./estilos/banner.css";
-@import "./estilos/carrossel.css";
-@import "./estilos/topicos.css";
-@import "./estilos/contato.css";
-@import "./estilos/rodape.css";
-
 :root
 {
     --background-principal: #EBECEE;
@@ -13,20 +6,14 @@
     --cor-de-destaque: #EB9B00;
     --degrade: linear-gradient(to right, #002F52, #326589);
     --cor-fonte-principal: #002f52;   
-    --fonte-cabecalho: #000000;
+    --cor-fonte-cabecalho: #000000;
     --fonte-principal: "Poppins", sans-serif;
+    --fonte-secundaria: "Josefin Sans", sans-serif;
 }
 
-*
-{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-}
-
-.projeto
+body
 {
     background-color: var(--background-principal);
     font-family: var(--fonte-principal);
 }
+
