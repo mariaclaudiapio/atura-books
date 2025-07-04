@@ -1,4 +1,6 @@
 @import "./estilos/cabecalho.css";
+@import "./estilos/banner.css";
+
 
 :root
 {
@@ -17,5 +19,7 @@ body
 {
     background-color: var(--background-principal);
     font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
