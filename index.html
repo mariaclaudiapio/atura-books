@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Books</title>
     <!-- Importação do script do carrossel -->
+    <link   rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <!-- Importação do reset -->
     <link rel="stylesheet" href="./estilos/reset.css">  
     <!-- Importação do arquivo de estilos -->
@@ -50,11 +51,52 @@
     </header>
 
     <!-- Banner -->
-     <section class="banner">
+    <section class="banner">
         <h2 class="banner__titulo">Já sabe por onde começar?</h2>
         <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
-     </section>
-    
+    </section>
+
+     <!-- Carrossel -->
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+
+        <!-- Container do Swiper -->
+        <div class="swiper">           
+        <!-- Bullets de Paginação -->   
+        <div class="swiper-pagination"></div>
+        <!-- Container de slides -->
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./imagens/apache_kafka.svg" alt="Livro Apache Kafka e Sring Boot."></div>
+            <div class="swiper-slide"><img src="./imagens/lideranca.svg" alt="Livro Liderança e Design."></div>
+            <div class="swiper-slide"><img src="./imagens/javascript.svg" alt="Livro JavaScript Assertivo."></div>
+            <div class="swiper-slide"><img src="./imagens/acessibilidade.svg" alt="Livro Acessibilidade na Web."></div>
+            <div class="swiper-slide"><img src="./imagens/gestao_2.svg" alt="Livro Gestão de Produtos."></div>
+            <div class="swiper-slide"><img src="./imagens/react_nactive.svg" alt="Livro React Native."></div>
+        </div>
+        <!-- Botões de Navegação -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        </div>
+
+        <!-- Cartão -->
+
+
+    </section>
+
+    <!-- Script do Carrossel -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', 
+        {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: 
+            {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            }
+        });
+    </script>
 </body>
 </html>
