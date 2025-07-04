@@ -59,7 +59,7 @@
 
      <!-- Carrossel -->
     <section class="carrossel">
-        <h2 class="carrossel__titulo">Novos Lançamentos</h2>
+        <h2 class="carrossel__titulo">Últimos Lançamentos</h2>
 
         <!-- Container do Swiper -->
         <div class="swiper">           
@@ -80,8 +80,63 @@
         </div>
 
         <!-- Cartão -->
+         <div class="cartao">
+            <div class="cartao__descricao">
+                <div class="descricao">
+                    <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                    <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+                    <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                </div>
+                <img src="./imagens/logo_angular.svg" alt="Logo do Angular." class="descricao__imagem">
+            </div>
+            <div class="cartao__botoes">
+                <ul class="botoes">
+                    <li class="botoes__item"><img src="./imagens/favoritos.svg" alt="Favoritar livro."></li>
+                    <li class="botoes__item"><img src="./imagens/compras.svg" alt="Compra livro."></li>
+                </ul>
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+            </div>
+         </div>
 
+         <h2 class="carrossel__titulo">Mais Vendidos</h2>
 
+        <!-- Container do Swiper -->
+        <div class="swiper">           
+        <!-- Bullets de Paginação -->   
+        <div class="swiper-pagination"></div>
+        <!-- Container de slides -->
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./imagens/arquitetura.svg" alt="Livro Arquitetura de Software Distribuído."></div>
+            <div class="swiper-slide"><img src="./imagens/tuning.svg" alt="Livro Tuning de SQL."></div>
+            <div class="swiper-slide"><img src="./imagens/fullstack_javascript.svg" alt="Livro sobre JavaScript fullstack."></div>
+            <div class="swiper-slide"><img src="./imagens/guia_frontend.svg" alt="Livro Guia Front-end."></div>
+            <div class="swiper-slide"><img src="./imagens/ux.svg" alt="Livro Gestão de Produtos."></div>
+            <div class="swiper-slide"><img src="./imagens/portugol.svg" alt="Livro Lógica de Programação com Portugol."></div>
+        </div>
+        <!-- Botões de Navegação -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        </div>
+
+        <!-- Cartão -->
+         <div class="cartao">
+            <div class="cartao__descricao">
+                <div class="descricao">
+                    <img class="descricao__estrelas" src="./imagens/cinco_estrelas.svg" alt="Cinco estrelas decorativas">
+                    <h3 class="descricao__titulo">Autora do Mês</h3>
+                    <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+                    <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                </div>
+                <img src="./imagens/logo_angular.svg" alt="Logo do Angular." class="descricao__imagem">
+            </div>
+            <div class="cartao__botoes">
+                <ul class="botoes">
+                    <li class="botoes__item"><img src="./imagens/favoritos.svg" alt="Favoritar livro."></li>
+                    <li class="botoes__item"><img src="./imagens/compras.svg" alt="Compra livro."></li>
+                </ul>
+                <a href="#" class="botoes__ancora">Saiba mais</a>
+            </div>
+         </div>
     </section>
 
     <!-- Script do Carrossel -->
