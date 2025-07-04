@@ -1,0 +1,41 @@
+.topicos
+{
+    background: var(--degrade);
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.topicos__faixa
+{
+    background-color: var(--background-secundario);
+    height: 1rem;
+}
+
+.topicos__titulo
+{
+    margin: 2rem 0 1.5rem 0;
+    color: var(--background-secundario);
+    font-weight: 300;
+    text-transform: uppercase;    
+}
+
+.topicos__lista
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.topicos__lista--item
+{
+    margin: 1.2em 0.5em;
+}
+
+.topicos__lista--item-link
+{
+    padding: 1em;
+    background-color: var(--cor-de-destaque);    
+    color: var(--background-secundario);
+    font-size: 14px;
+    font-weight: 700;
+}

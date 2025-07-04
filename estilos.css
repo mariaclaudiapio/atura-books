@@ -1,6 +1,9 @@
 @import "./estilos/cabecalho.css";
 @import "./estilos/banner.css";
 @import "./estilos/carrossel.css";
+@import "./estilos/topicos.css";
+@import "./estilos/contato.css";
+@import "./estilos/rodape.css";
 
 
 :root
@@ -22,5 +25,6 @@ body
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+    line-height: 1.5rem;
 }
 
