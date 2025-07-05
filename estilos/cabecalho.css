@@ -1,20 +1,21 @@
 .cabecalho
 {
-    background-color: var(--background-secundario);
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
+    padding: 0 2rem;    
+    background-color: var(--background-secundario);
 }
 
 .cabecalho__menu-hamburguer
 {
-    width: 24px;
-    height: 24px;
-    background-image: url(../imagens/menu_fechado.svg);
     display: inline-block;
     background-repeat: no-repeat;
     background-position: center;
+    background-image: url(../imagens/menu_fechado.svg);
+    width: 24px;
+    height: 24px;
 }
 
 .container
@@ -33,7 +34,8 @@
     display: none;
     position: absolute;
     top: 100%;
-    width: 60vw;
+    left: 0;
+    width: 60vw;    
 }
 
 .container__botao
@@ -45,8 +47,6 @@
 {
     display: block;
 }
-
-
 
 .lista-menu__titulo,
 .lista-menu__item
@@ -68,5 +68,78 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+}
+
+.cabecalho__titulo-tablet,
+.opcoes
+{
+    display: none;
+}
+
+/* versão tablet */
+@media screen and (min-width: 1024px)
+{
+    .cabecalho
+    {
+        padding: 0 5rem;
+    }
+
+    .cabecalho__titulo-tablet
+    {
+        display: block;
+        font-size: 30px;
+    }
+
+    .cabelho__titulo-tablet
+    {
+        font-family: var(--fonte-secundaria);
+    }
+
+    .negrito
+    {
+        font-weight: 700;
+    }
+
+    .opcoes
+    {
+        display: flex;
+    }
+
+    .opcoes__item
+    {
+        padding: 0 1rem;
+        text-transform: uppercase;
+    }
+    
+    .opcoes__link
+    {
+        color: var(--cor-fonte-cabecalho);
+    }
+    
+    .none__tablet,
+    .cabecalho__menu-hamburguer, 
+    .opcoes__botao
+    {
+        display: none;
+    }
+    
+    .opcoes__botao:checked ~ .lista-menu-tablet
+    {
+        display: block;
+        width: auto;        
+    }
+    
+    .lista-menu__link
+    {
+        padding: 0 2rem;
+    }
+
+    .lista-menu-tablet
+{
+    display: none;
+    position: absolute;
+    top: 100%;   
+    width: 60vw;    
+}
 }
 

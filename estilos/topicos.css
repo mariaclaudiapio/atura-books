@@ -39,3 +39,33 @@
     font-size: 14px;
     font-weight: 700;
 }
+
+@media screen and (min-width: 1024px)
+{
+    .topicos__faixa
+    {
+        display: none;
+    }
+
+    .topicos__lista
+    {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .topicos__titulo
+    {
+        padding: 2.5rem 0 1rem 0;
+    }
+
+    .topicos__titulo,
+    .topicos__lista--item-link
+    {
+        font-size: 24px;
+    }
+
+    .topicos__lista--item
+    {
+        padding: 1rem 0;
+    }
+}

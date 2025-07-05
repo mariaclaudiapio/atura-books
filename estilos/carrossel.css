@@ -92,3 +92,37 @@
     color: var(--background-secundario);
     font-weight: 700;
 }
+
+@media screen and (min-width: 1024px)
+{
+    .carrossel__titulo
+    {
+        font-size: 26px;
+        padding: 3rem 0 1.2rem 0;
+    }
+
+    .swiper
+    {
+        width: 60%;
+    }
+
+    .swiper-pagination
+    {
+        margin: 1.5em 0 3em 0;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next
+    {
+        display: block;
+        top: 60%;        
+    }
+
+    .cartao
+    {
+        width: 60%;
+        margin: 3rem auto;
+    }
+
+
+}
