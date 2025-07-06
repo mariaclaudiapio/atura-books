@@ -26,8 +26,8 @@ Você pode clonar este repositório e abrir o arquivo ``index.html`` em qualquer
 
 Durante esse projeto, consegui aprofundar os seguintes conceitos:
 * Estrutura básica de um documento HTML;
-* Organização de _layout_ com CSS Flexbox;
-* Construção de layouts responsivos com o uso de _media queries_;
+* Organização de _layouts_ com CSS Flexbox;
+* Responsividade com o uso de _media queries_;
 * Boas práticas de estilização com CSS.
 
 ## 📚 Créditos ##
