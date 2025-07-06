@@ -40,6 +40,7 @@
     font-weight: 700;
 }
 
+/* versão tablet */
 @media screen and (min-width: 1024px)
 {
     .topicos__faixa
@@ -67,5 +68,24 @@
     .topicos__lista--item
     {
         padding: 1rem 0;
+    }
+}
+
+/* versão desktop */
+@media screen and (min-width: 1728px)
+{
+    .topicos__lista
+    {
+        width: 60%;
+    }
+
+    .topicos__lista--item
+    {
+        padding: 2rem 0.5rem;
+    }
+
+    .topicos__lista--item-link
+    {
+        padding: 2rem 3rem;
     }
 }

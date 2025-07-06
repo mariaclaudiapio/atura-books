@@ -71,7 +71,8 @@
 }
 
 .cabecalho__titulo-tablet,
-.opcoes
+.opcoes,
+.container__texto
 {
     display: none;
 }
@@ -135,11 +136,38 @@
     }
 
     .lista-menu-tablet
-{
-    display: none;
-    position: absolute;
-    top: 100%;   
-    width: 60vw;    
+    {
+        display: none;
+        position: absolute;
+        top: 100%;   
+        width: 60vw;    
+    }
 }
+
+/* versã0 desktop */
+@media screen and (min-width: 1728px)
+{
+    .container__link
+    {
+        display: flex;
+        align-items: center;
+    }
+
+    .container__texto
+    {
+        display: block;
+        color: var(--cor-fonte-cabecalho);
+        font-size: 20px;        
+    }
+
+    .container__imagem
+    {
+        padding: 1rem 0.5rem;
+    }
+
+    .opcoes
+    {
+        margin-right: auto;       
+    }
 }
 

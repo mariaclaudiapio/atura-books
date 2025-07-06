@@ -123,6 +123,66 @@
         width: 60%;
         margin: 3rem auto;
     }
+}
 
+/* versão desktop */
+@media screen and (min-width: 1728px)
+{
+    .banner
+    {
+        padding: 6em 0;
+    }
+    
+    .banner__texto
+    {
+        margin: 1em auto 1.5em auto;
+    }
 
+    .banner__pesquisa
+    {
+        width: 35%;
+    }
+
+    .banner__pesquisa::placeholder
+    {
+        background-position: 10em;
+    }
+}
+
+/* versão desktop */
+@media screen and (min-width: 1728px)
+{
+    .carrossel__container
+    {
+        display: flex;
+        align-items: center;        
+        margin: 0 10% 3em 10%;
+        gap: 5rem;
+    }
+
+    .swiper-pagination
+    {
+        margin: 1em 0;
+    }
+
+    .cartao
+    {
+        margin: 2rem auto 0 auto;
+    }
+    
+    .cartao__botoes
+    {
+        margin-top: 0.5rem;
+    }
+
+    .descricao__titulo
+    {
+        font-size: 32px;
+        line-height: 2.5rem;
+    }
+
+    .descricao__texto
+    {
+        font-size: 16px;
+    }
 }

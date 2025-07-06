@@ -39,31 +39,38 @@
     background-position: 1rem;
 }
 
+/* versão tablet */
 @media screen and (min-width: 1024px)
 {
     .banner__titulo
     {
         font-size: 36px;
     }
+}
+
+/* versão desktop */
+@media screen and (min-width: 1728px)
+{
 
     .banner__pesquisa
     {
         width: 50%;
     }
-
+    
     .banner__pesquisa::placeholder
     {
         background-position: 8em;
     }
-
+    
     .banner
     {
         padding: 5rem 0;        
     }
-
+    
     .banner__texto
     {
         margin: 1.5rem;
     }
-
 }
+
+

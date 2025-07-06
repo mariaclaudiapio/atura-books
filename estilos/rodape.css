@@ -14,6 +14,7 @@ hr
     display: none;
 }
 
+/* versão tablet */
 @media screen and (min-width: 1024px) 
 {
     .rodape
@@ -38,7 +39,7 @@ hr
         font-size: 14px;
         color: var(--cor-titulo-rodape);
         text-transform: uppercase;
-        padding-bottom: 1rem;
+        padding: 0 0 1.5rem 0.6rem;
     }
 
     .lista__rodape--item
@@ -53,5 +54,20 @@ hr
         padding-left: 0.6rem;
         color: var(--cor-fonte-rodape);
         font-size: 14px;
+    }
+}
+
+/* versao desktop */
+@media screen and (min-width: 1728px)
+{
+    .rodape
+    {
+        padding: 5rem 10vw;
+    }
+
+    .lista__rodape
+    {
+        border-left: 1px solid var(--cor-titulo-rodape);
+        padding-left: 1rem;
     }
 }
